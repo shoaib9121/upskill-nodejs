@@ -1,0 +1,1 @@
+SELECT * FROM shopping_carts WHERE user_id = ?;

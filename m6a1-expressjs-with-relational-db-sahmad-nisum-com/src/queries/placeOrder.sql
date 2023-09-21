@@ -1,0 +1,1 @@
+INSERT INTO orders (user_id, date, total_amount) VALUES (?, ?, ?);

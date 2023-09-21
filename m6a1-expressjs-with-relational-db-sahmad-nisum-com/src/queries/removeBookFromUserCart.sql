@@ -1,0 +1,1 @@
+DELETE FROM cart_items WHERE book_id = ? AND cart_id = ?;

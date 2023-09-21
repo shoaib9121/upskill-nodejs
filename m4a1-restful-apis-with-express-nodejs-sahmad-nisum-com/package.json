@@ -1,0 +1,38 @@
+{
+  "name": "m4a1-restful-apis-with-express-nodejs",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/lVtkL3SQ) [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11487212&assignment_repo_type=AssignmentRepo) # M4A1 - RESTful APIs with Express NodeJs",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec ts-node -- ./src/index.ts",
+    "build": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nisum-Pakistan/m4a1-restful-apis-with-express-nodejs-sahmad-nisum-com.git"
+  },
+  "author": "Shoaib Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nisum-Pakistan/m4a1-restful-apis-with-express-nodejs-sahmad-nisum-com/issues"
+  },
+  "homepage": "https://github.com/Nisum-Pakistan/m4a1-restful-apis-with-express-nodejs-sahmad-nisum-com#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.9",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.4",
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

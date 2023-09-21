@@ -1,0 +1,23 @@
+{
+  "name": "m9a1-nodejs-advanced-concepts-sahmad-nisum-com",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WyvLXdZ-) [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11693296&assignment_repo_type=AssignmentRepo) # M9A1 - NodeJS advanced concepts",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nisum-Pakistan/m9a1-nodejs-advanced-concepts-sahmad-nisum-com.git"
+  },
+  "author": "Shoaib Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nisum-Pakistan/m9a1-nodejs-advanced-concepts-sahmad-nisum-com/issues"
+  },
+  "homepage": "https://github.com/Nisum-Pakistan/m9a1-nodejs-advanced-concepts-sahmad-nisum-com#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
